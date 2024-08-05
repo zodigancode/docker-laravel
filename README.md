@@ -15,7 +15,7 @@ cd docker-laravel
 docker compose up -d
 ```
 
-You need to run the following commands from the console of the yii_php container. To start bash within docker container, use the command:
+You need to run the following commands from the console of the laravel_php container. To start bash within docker container, use the command:
 
 ```shell
 docker exec -it laravel_php sh
