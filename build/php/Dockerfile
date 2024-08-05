@@ -35,7 +35,7 @@ USER www
 
 #RUN composer create-project laravel/laravel project
 
-#RUN AS ROOT
+#RUN AS ROOT if
 #USER 0
 
 
